@@ -9,6 +9,8 @@ Minicurso (15h) mininstrado na XXVII Escola de Verão de Geofísica do [IAG - US
 [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo),
 [Yago Moreira Castro](https://github.com/YagoMCastro)
 
+**Inscrições até 25/11/2024:** https://www.iag.usp.br/eventos/curso-extensao-escola-verao-2025
+
 ## Objetivos
 
 Ensinar noções básicas de diversas ferramentas digitais (shell/bash, git, GitHub, make, LaTeX) que podem poupar
@@ -36,9 +38,9 @@ O programa do curso será:
 4. **Criação de artigos, livros e teses com LaTeX:** O LaTeX é um "typesetting system", que transforma código em PDFs. Embora seja mais trabalhoso de aprender do que softwares como Word, o fato do texto ser escrito em forma de código possui diversas vantagens: o mesmo texto pode ser usado para gerar documentos com temas diferentes, facilidade na utilização de referências cruzadas, geração automática de bibliografia e citações, numeração automática de equações, figuras e capítulos, etc.
 
 O formato do curso conterá:
-● Aulas expositivas: Para ensinar uma ferramenta nova, o ministrante realizará uma demonstração ao vivo com os participantes seguindo em seus próprios computadores.
-● Exercícios: Intercalado com as aulas expositivas, os participantes receberão pequenos desafios e exercícios para serem realizados individualmente e em grupos.
-● Aplicações: O curso reservará parte do tempo para a aplicação das ferramentas ensinadas em problemas trazidos pelos participantes. Essas aplicações podem ser individuais ou compartilhadas com todos os participantes.
+* Aulas expositivas: Para ensinar uma ferramenta nova, o ministrante realizará uma demonstração ao vivo com os participantes seguindo em seus próprios computadores.
+* Exercícios: Intercalado com as aulas expositivas, os participantes receberão pequenos desafios e exercícios para serem realizados individualmente e em grupos.
+* Aplicações: O curso reservará parte do tempo para a aplicação das ferramentas ensinadas em problemas trazidos pelos participantes. Essas aplicações podem ser individuais ou compartilhadas com todos os participantes.
 
 Ao final do curso, os participantes saberão como desenvolver projetos complexos em equipe e com fluxos de
 trabalho automatizados para produção de resultados e relatórios/teses/artigos de alta qualidade. As ferramentas
