@@ -14,6 +14,13 @@ esforços e frustrações de pesquisadores, alunos e profissionais que lidam com
 de potencializar sua produtividade e a robustez de seus fluxos de trabalho e lhes permitir colaborar em projetos
 de software livre desenvolvidos pela comunidade.
 
+## Prerequisitos
+
+Este curso tem como público alvo graduandos, pós-graduandos, pós-doutorandos e profissionais atuantes das áreas de Geofísica, Geologia, Meteorologia, Astronomia ou outras áreas correlatas das Ciências Exatas. Assim, os prerequisitos são:
+
+* **Conhecimento básico de programação** (de preferência na linguagem Python): variáveis, funções, loops, criar gráficos. Os exemplos dados em aula utilizarão scripts e notebooks em Python mas não serão o foco das aulas.
+* **Conhecimento básico de análise de dados**: regressão linear, médias, desvio padrão. Os exemplos dados em aula utilizarão alguns desses conceitos mas eles não serão o foco das aulas.
+
 ## Ementa
 
 O curso tem como objetivo difundir o uso de algumas ferramentas computacionais que têm o potencial de facilitar
@@ -38,7 +45,19 @@ Aberta.
 
 ## Cronograma
 
-Em breve.
+> O cronograma a seguir é um **esboço** e está **sujeito a mudanças** até a data do curso.
+
+### Dia 1 - O terminal e scripts em Bash
+
+### Dia 2 - Controle de versão com git e GitHub
+
+### Dia 3 - Automatização de tarefas com GNU Make
+
+### Dia 4 - Escrita científica com LaTeX
+
+### Dia 5 - Projetos individuais
+
+O último dia estará reservado para que participantes tragam seus próprios projetos (artigos, dissertações, monografias, etc) aos quais desejem aplicar os conhecimentos adquiridos ao longo do curso. O instrutor e os monitores auxiliarão na implementação. Participantes que não tiverem projetos podem auxiliar em projetos de outras pessoas ou o instrutor pode sugerir algum projeto.
 
 ## Bibliografia
 
