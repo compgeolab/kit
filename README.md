@@ -2,8 +2,10 @@
 
 Minicurso (15h) mininstrado na XXVII Escola de Verão de Geofísica do [IAG - USP](https://www.iag.usp.br/).
 
-**Instrutores:**
-[Leonardo Uieda](https://www.leouieda.com/),
+**Instrutor:**
+[Leonardo Uieda](https://www.leouieda.com/)
+
+**Monitores:**
 [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo),
 [Yago Moreira Castro](https://github.com/YagoMCastro)
 
