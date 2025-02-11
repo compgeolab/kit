@@ -57,7 +57,7 @@ Aberta.
 * O terminal e a linguagem Bash
 * Navegando pelo terminal: Diretórios, caminhos, e arquivos (comandos `cd`, `ls`, `pwd`)
 * Manipulando arquivos e diretórios (comandos `cp`, `mkdir`, `mv`, `rm` e uso de wildcards)
-* Redirecionamento de saída e entrada (comandos `cat`, `wc`, `head`)
+* Redirecionamento de saída e entrada (comandos `cat`, `wc`, `head`, `sort`)
 * Loops com `for`
 * Exemplo: Calculando o número de dados em cada arquivo e rodando a análise em todos os arquivos.
 
