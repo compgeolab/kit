@@ -124,12 +124,17 @@ Utilize o que achar melhor. Durante o curso utilizaremos o Notepad++ pois
 1. Durante a instalação, siga os passos com a configuração padrão **exceto**:
     1. Na parte "Choosing the default editor used by Git": Selecione o seu
        editor de texto no menu.
+       
        ![](img/git-windows-1.png)
+       
     1. Na parte "Adjusting the name of the initial branch in new repositories":
        Selecione "Override the default branch name for new repositories"
+       
        ![](img/git-windows-2.png)
+       
     1. Na parte "Configuring the terminal emulator to use with Git Bash":
        Selecione "Use Windows' default console window"
+       
        ![](img/git-windows-3.png)
 
 Ao final, você terá acesso ao programa "Git Bash" que te fornecerá um terminal
@@ -141,6 +146,7 @@ com a linguagem Bash e o programa Git instalado.
 1. Durante a instalação, siga os passos com a configuração padrão **exceto**:
     1. Na parte "Advanced installation options": Selecione "Add Miniforge3 to
        my PATH environment variable".
+       
        ![](img/miniforge-1.png)
 
 Ao final, você poderá usar os comandos `python` e `conda` no terminal do Git
