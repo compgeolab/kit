@@ -1,26 +1,27 @@
+"""
+Calcula a taxa de variação de temperatura dos últimos 5 anos para um determinado pais.
+
+O caminho até o arquivo com os dados em formato CSV deve ser o primeiro
+argumento da linha de comando. Os resultados são impressos no STDOUT.
+"""
+
 import sys
+import pathlib
 import pandas as pd
-import matplotlib.pyplot as plt
-import zipfile
 import numpy as np
 
-# Lê os dados do arquivo especificado em 'file_path', calcula a variação de temperatura
-# e exibe o nome do país seguido da temperatura correspondente.
-zip_path = 'dados/temperature-data.zip'
-file_name = sys.argv[1]
 
-with zipfile.ZipFile(zip_path, 'r') as zip_file:
-    df = pd.read_csv(zip_file.open(file_name), skiprows=5)
-    
-    df['year'] = pd.to_numeric(df['year'], downcast='integer')
-    df = df.sort_values(by='year')
+# O caminho para o arquivo é recebido pela linha de comando
+file_path = pathlib.Path(sys.argv[1])
 
-    # Cria um dataframe dos últimos 10 anos
-    current_year = df['year'].unique()[-1]
-    df = df[df['year'] >= current_year - 9]
+data = pd.read_csv(file_path, comment="#")
 
-    # Regressão linear
-    coefficients = np.polyfit(df['year_decimal'], df['temperature_C'], 1)
+last_ten_years = data.year_decimal > data.year_decimal.iloc[-1] - 5
 
-    # Impressão de resultados
-    print('%s | %.3f' % ((file_name[0].upper() + file_name[1:-4]), coefficients[0]))
+# Regressão linear
+coefficients = np.polyfit(
+    data.year_decimal[last_ten_years], data.temperature_C[last_ten_years], 1
+)
+
+# Impressão de resultados
+print(f'{file_path.stem.replace("-", " ").title()} | {coefficients[0]:.3f}')
