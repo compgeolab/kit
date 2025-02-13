@@ -14,7 +14,7 @@ import numpy as np
 # O caminho para o arquivo é recebido pela linha de comando
 file_path = pathlib.Path(sys.argv[1])
 
-# Lê o csv ignorando comentários 
+# Lê o csv ignorando comentários
 data = pd.read_csv(file_path, comment="#")
 
 # Filtra dados dos últimos cinco anos
