@@ -14,10 +14,10 @@ import numpy as np
 # O caminho para o arquivo é recebido pela linha de comando
 file_path = pathlib.Path(sys.argv[1])
 
-# Read the csv ignoring the comments 
+# Lê o csv ignorando comentários 
 data = pd.read_csv(file_path, comment="#")
 
-# Filter data from the last five year
+# Filtra dados dos últimos cinco anos
 last_five_years = data.year_decimal > data.year_decimal.iloc[-1] - 5
 
 # Regressão linear
