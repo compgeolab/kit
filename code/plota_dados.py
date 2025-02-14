@@ -3,7 +3,7 @@ Lê os arquivos e gera gráficos em barra das regiões com as cinco maiores e ci
 menores variações de temperatura.
 
 O caminho até o arquivo com os dados em formato CSV deve ser o primeiro
-argumento da linha de comando. As figuras são armazenadas em code/img/.
+argumento da linha de comando.
 """
 
 import sys
