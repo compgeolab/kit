@@ -29,7 +29,7 @@ fig, ax = plt.subplots()
 # Gráfico das 5 menores variações
 bar_labels = data["regiao"].head(5)
 
-ax.bar(data["regiao"].head(5), data["variacao_temperatura"].head(5), label=bar_labels)
+ax.bar(data["regiao"].head(5), data["variacao_temperatura"].head(5))
 
 ax.set_ylabel("Taxa de variação de temperatura (°C/ano)")
 ax.set_title("Cinco maiores")
