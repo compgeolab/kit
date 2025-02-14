@@ -1,0 +1,119 @@
+% O tipo de documento e as opções de formatação da página
+\documentclass[twocolumn,A4]{article}
+
+% Pacotes que vamos utilizar (esses estão em quase todos os documentos)
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Para poder usar caracteres especiais e acentos
+\usepackage[utf8]{inputenc}
+\usepackage[TU]{fontenc}
+% Lingua utilizada para o documento
+%\usepackage[english]{babel}
+\usepackage[brazil]{babel}
+% Para mais funções de matemática
+\usepackage{amsmath}
+\usepackage{amssymb}
+% Para inserir figuras
+\usepackage{graphicx}
+% Para colocar links e metadados no PDF
+\usepackage{hyperref}
+% Para melhorar a distribuição de texto
+\usepackage{microtype}
+% Para citações
+\usepackage[round,authoryear,sort]{natbib}
+% Para digitar unidades
+\usepackage{siunitx}
+% Para incluir URLs com links e quebra de linha adequada
+\usepackage{xurl}
+
+% Configurações de formato do documento (chama funções dos pacotes acima)
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configura os metadados do PDF
+\hypersetup{
+    % Links coloridos ao invés da caixa colorida
+    colorlinks,
+    % Cor dos links
+    allcolors=blue,
+    % Título que aparece nos metadados
+    pdftitle={Mudança na temperatura média de países nos últimos cinco anos},
+    % Autor que aparece nos metadados
+    pdfauthor={Leonardo Uieda, Yago M. Castro, Arthur S. Macêdo},
+    % Permite quebrar a linha no meio de links
+    breaklinks=true,
+}
+
+% Incluir as variáveis geradas pelo cógido
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{variaveis/n_paises.tex}
+\input{variaveis/paises.tex}
+
+
+% Começa o documento em si
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{Mudança na temperatura média de países nos últimos cinco anos}
+\author{
+    Leonardo Uieda\textsuperscript{1,2},
+    Yago M. Castro\textsuperscript{1,2},
+    Arthur S. Macêdo\textsuperscript{1,2}
+    \\[0.2cm]
+    {\small
+        \textsuperscript{1}Computer-Oriented Geoscience Lab;
+        \textsuperscript{2}Universidade de São Paulo, Brasil
+    }
+}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+Mudanças climáticas estão afetando o mundo todo.
+Dados de temperatura na superfície da Terra são fundamentais para entendermos como este fenômeno impacta diferentes lugares do mundo.
+Analisamos séries temperais de temperatura média mensal de \NPaises{} países.
+Com essa análise, determinados quais são os países com maior variação de
+temperatura nos últimos cinco anos.
+\end{abstract}
+
+\section{Introdução}
+
+Sabemos que a temperatura média da Terra tem aumentado durante o Holoceno, com
+as mudanças mais recentes sendo consideradas anômalas \citet{Osman2021}.
+
+\section{Metodologia}
+
+\DeclareSIUnit{\ano}{ano}
+
+Seja a taxa variação de temperatura $\alpha$ em \unit{\degreeCelsius\per\ano},
+assumimos uma variação linear da temperatura $T$ com o tempo $t$,
+
+\begin{equation}
+    T(t) = t \alpha + \beta
+    \label{eq:linear}
+\end{equation}
+
+\noindent
+em que $\beta$ é o coeficiente linear da reta.
+Podemos ajustar a equação \ref{eq:linear} aos dados dos últimos cinco anos
+e calcular a taxa de variação $\alpha$.
+
+\section{Resultados}
+
+Analisamos os dados de \NPaises{} países: \Paises{}.
+
+% TODO: Inserir figura
+%
+%
+\section{Conclusões}
+
+O mundo está pegando fogo e precisamos parar com a nossa dependência nos
+combustíveis fósseis.
+
+\section*{Agradecimentos}
+
+Agradecemos a todas as pessoas que dedicaram seu tempo à criação dos softwares
+livres dos quais dependemos para a criação desse artigo.
+
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}
