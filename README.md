@@ -102,6 +102,11 @@ o código para análise dos dados, o código de um artigo LaTeX e um `Makefile`
 que coordenada todo o workflow.
 Um exemplo de tal repositório é: https://github.com/compgeolab/kit-exemplo
 
+## Instalando os softwares no seu computador
+
+**Siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
+que utilizaremos durante o curso no seu computador.
+
 ## Cronograma
 
 > O cronograma a seguir é um **esboço** e está **sujeito a mudanças** até a data do curso.
@@ -169,31 +174,6 @@ ajudar no dia-a-dia de um cientista digital:
 * [Template para projetos de pesquisa em LaTeX](https://github.com/compgeolab/grant-fapesp-template).
   Baseada no modelo de projetos da FAPESP mas pode ser adaptada para outras
   agências de fomento.
-
-## Instalando os softwares no seu computador
-
-Durante o curso, utilizaremos alguns softwares para acessar o `git`, `make`,
-`python` e LaTex:
-
-* **Git:** O `git` já vem com a maioria dos sistemas Linux. No Windows,
-  utilizaremos o [Git for Windows](https://gitforwindows.org/) que já vem com
-  um terminal com Bash (que é muito melhor que o `cmd.exe`).
-* **Miniforge:** Para acessar o Python, utilizaremos a distribuição
-  [Miniforge](https://conda-forge.org/download/). Ela é melhor que o Anaconda
-  pois vem somente com o Python e o programa `conda` que é utilizado para
-  instalar outros pacotes. Assim, fica mais fácil instalar novos pacotes
-  e atualizá-los sem ter conflitos entre versões, como acontece rotineiramente
-  no Anaconda. O Miniforge também é o jeito mais fácil de instalar o `make`
-  e o compilador de LaTeX `tectonic` no Windows.
-* **Tectonic:** Existem diversos compiladores de LaTeX para as diferentes
-  plataformas. A maioria costuma ser grande e difícil de instalar,
-  principalmente no Windows.
-  O [Tectonic](https://tectonic-typesetting.github.io/en-US/) é um compilador
-  novo de LaTeX que é fácil de instalar pelo Miniforge e mais fácil de rodar
-  que os outros compiladores de LaTeX.
-
-**Siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
-que utilizaremos durante o curso no seu computador.
 
 ## Licença
 
