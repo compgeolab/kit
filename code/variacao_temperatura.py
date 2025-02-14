@@ -14,7 +14,7 @@ import numpy as np
 # O caminho para o arquivo é recebido pela linha de comando
 file_path = pathlib.Path(sys.argv[1])
 
-# Read the csv ignoring the comments 
+# Read the csv ignoring the comments
 data = pd.read_csv(file_path, comment="#")
 
 # Filter data from the last five year
@@ -26,4 +26,4 @@ coefficients = np.polyfit(
 )
 
 # Impressão de resultados
-print(f'{file_path.stem.replace("-", " ").title()} | {coefficients[0]:.3f}')
+print(f'{coefficients[0]:.3f},"{file_path.stem.replace("-", " ").title()}"')
