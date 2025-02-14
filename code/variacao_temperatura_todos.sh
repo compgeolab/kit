@@ -1,28 +1,29 @@
 # Script que calcula a variação de temperatura para cada um dos países e os
-# colocar em um único arquivo.
+# colocar em um único arquivo CSV.
 #
 # O primeiro argumento deve ser a pasta onde estão os dados CSV.
-# O segundo argumeto deve ser o caminho para o arquivo de saída.
+# O resultado será impresso na tela.
 
-# Inicializa o arquivo de saída com a string vazia. Sem isso a gente sempre
-# adicionaria no arquivo caso o script seja rodado múltiplas vezes.
-# O -n diz para o echo não adicionar uma quebra de linha. Assim não ficamos com
-# a primeira linha do arquivo vazia.
-echo -n "" > "$2"
+# Inicializa a saída com o nome das colunas
+echo "variacao_C_por_ano,pais"
 
 # O comando entre $() é rodado primeiro. Ele lista os arquivos que terminam em
 # .csv na pasta dada (ls) e conta o número de linhas (wc) na resposta, dando
-# o número de arquivos.
-echo "Analisando $(ls "$1"/*.csv | wc -l) arquivos:"
+# o número de arquivos. O >&2 significa redirecionar a saída para o canal de
+# erros. Assim essa mensagem não será adicionada ao arquivo quando
+# redirecionarmos a saída desse script. Isso normalmente é usado para imprimir
+# mensagens durante o processamento que não são parte do resultado do script.
+echo "Analisando $(ls "$1"/*.csv | wc -l) arquivos:" >&2
 
 # Para cada arquivo que termina em .csv, faça:
 for file in "$1"/*.csv; do
-    echo -n "  Processando $file ..."
-    # Roda o script Python com o arquivo e adiciona o resultado no arquivo de
-    # saída dado. O $(dirname $0) pega o diretório de desse script. Assim
-    # o script Python é achado sempre, mesmo se rodarmos o script fora dessa
-    # pasta.
-    python "$(dirname "$0")"/variacao_temperatura.py "$file" >> "$2";
-    echo " feito!"
+    echo -n "  Processando $file ..." >&2
+
+    # Roda o script Python com o arquivo.
+    # O $(dirname $0) pega o diretório de desse script. Assim o script Python
+    # é achado sempre, mesmo se rodarmos o script fora dessa pasta.
+    python "$(dirname "$0")"/variacao_temperatura.py "$file"
+
+    echo " feito!" >&2
 done
-echo "Processo terminado."
+echo "Processo terminado." >&2
