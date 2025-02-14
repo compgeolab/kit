@@ -21,12 +21,12 @@ alunos e profissionais que lidam com dados (amplamente definido), além de
 potencializar sua produtividade e a robustez de seus fluxos de trabalho e lhes
 permitir colaborar em projetos de software livre desenvolvidos pela comunidade.
 
-## Prerequisitos
+## Pré-requisitos
 
 Este curso tem como público alvo graduandos, pós-graduandos, pós-doutorandos
 e profissionais atuantes das áreas de Geofísica, Geologia, Meteorologia,
 Astronomia ou outras áreas correlatas das Ciências Exatas. Assim, os
-prerequisitos são:
+pré-requisitos são:
 
 * **Conhecimento básico de programação** (de preferência na linguagem Python):
   variáveis, funções, loops, criar gráficos. Os exemplos dados em aula
@@ -121,9 +121,10 @@ projeto.
 
 ## Bibliografia
 
-O material abaixo complementa e expande o que veremos em aula. Recomendamos que
-todos leiam o material antes das aulas e que os estudem a fundo depois das
-aulas para fixar o conteúdo.
+O material abaixo complementa e expande o que veremos em aula:
+
+> Recomendamos que todos leiam o material antes das aulas e que os estudem
+> a fundo depois das aulas para fixar o conteúdo.
 
 * [Lição de Python do Software Carpentry](https://swcarpentry.github.io/python-novice-inflammation)
 * [Lição de bash e terminal do Software Carpentry](https://swcarpentry.github.io/shell-novice)
