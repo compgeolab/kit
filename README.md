@@ -105,6 +105,13 @@ o código para análise dos dados, o código de um artigo LaTeX e um `Makefile`
 que coordenada todo o workflow.
 Um exemplo de tal repositório é: **INCLUIR EXEMPLO APÓS O CURSO**
 
+Como exemplo, utilizamos dados de médias de temperatura média mensal para
+diversos países. Os dados estão disponíveis
+https://github.com/compgeolab/temperature-data sob uma licença CC-BY-NC.
+Estes dados foram derivados dos dados produzidos pelo
+[Berkeley Earth](https://berkeleyearth.org/) que também estão disponíveis sob
+a licença CC-BY-NC.
+
 ## Instalando os softwares no seu computador
 
 **Siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
