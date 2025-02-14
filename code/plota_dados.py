@@ -24,29 +24,7 @@ data = pd.read_csv(
 # Ordena dados pela variação de temperatura
 data = data.sort_values(by="variacao_temperatura")
 
-# fig, ax = plt.subplots(1,1)
-
-# ax.bar(data["pais"].head(5), data["variacao_temperatura"].head(5))
-
-# ax.set_ylabel("Taxa de variação de temperatura (°C/ano)")
-# ax.set_title("Cinco maiores")
-
-# plt.subplot(2,1)
-
-# ax.bar(data["pais"].tail(5), data["variacao_temperatura"].tail(5))
-
-# ax.set_ylabel("Variação de temperatura")
-# ax.set_title("Maiores Variações de Temperatura")
-
-# # O caminho para o arquivo da figura será armazenado é recebido pela
-# # linha de comando
-# fig_path = sys.argv[2]
-
-# print(fig_path)
-# plt.savefig(fig_path)
-
-
-# Criando dois subplots corretamente
+# Criando dois subplots
 fig, axes = plt.subplots(2, 1, figsize=(8, 6))
 
 # Plot do top 5 menores variações de temperatura
@@ -64,5 +42,6 @@ plt.tight_layout()
 
 # O caminho do arquivo da figura é passado pela linha de comando
 fig_path = sys.argv[2]
-print(fig_path)
+
+# Armazena figora em diretório passado pela linha de comando
 plt.savefig(fig_path)
