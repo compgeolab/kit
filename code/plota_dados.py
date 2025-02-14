@@ -33,7 +33,6 @@ ax.bar(data["regiao"].head(5), data["variacao_temperatura"].head(5), label=bar_l
 
 ax.set_ylabel("Taxa de variação de temperatura (°C/ano)")
 ax.set_title("Menores Variações de Temperatura")
-ax.legend(title="Região")
 
 # Salva gráfico
 plt.savefig("code/img/cinco_menores_taxas")
