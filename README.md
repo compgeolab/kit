@@ -90,6 +90,18 @@ e relatórios/teses/artigos de alta qualidade. As ferramentas aprendidas também
 formam a base para melhorar a reprodutibilidade de resultados e para a prática
 de Ciência Aberta.
 
+## O material
+
+Cada dia do curso teremos alguns produtos que iremos construir passo-a-passo.
+Os códigos deste repositório são as versões finais do que iremos construir.
+Estão presentes aqui para termos uma referência que possa ser utilizada por
+quem precisar.
+
+Ao final do curso, todos terão gerado um repositório para um artigo que contém
+o código para análise dos dados, o código de um artigo LaTeX e um `Makefile`
+que coordenada todo o workflow.
+Um exemplo de tal repositório é: https://github.com/compgeolab/kit-exemplo
+
 ## Cronograma
 
 > O cronograma a seguir é um **esboço** e está **sujeito a mudanças** até a data do curso.
@@ -180,74 +192,17 @@ Durante o curso, utilizaremos alguns softwares para acessar o `git`, `make`,
   novo de LaTeX que é fácil de instalar pelo Miniforge e mais fácil de rodar
   que os outros compiladores de LaTeX.
 
-Siga as instruções abaixo para instalar os softwares que utilizaremos durante
-o curso no seu computador.
+**Siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
+que utilizaremos durante o curso no seu computador.
 
-### Windows
+## Licença
 
-#### 1. Editor de texto
+O conteúdo deste curso pode ser livremente utilizado e adaptado dentro das
+restrições estabelecidas pelas licenças [MIT](LICENSE-MIT.md)
+e [CC-BY](LICENSE-CC-BY.md). Por favor, dê atribuição aos autores e inclua um
+link para esse repositório quando utilizar esse material.
 
-Baixe e instale um editor de texto, como
-[VSCode](https://code.visualstudio.com/) ou
-[Notepad++](https://notepad-plus-plus.org/).
-Utilize o que achar melhor. Durante o curso utilizaremos o Notepad++ pois
-é simples e já está instalado nos computadores da sala.
-**Instale o editor de texto primeiro!**
-
-#### 2. Git e um terminal
-
-1. Baixe o [Git for Windows](https://gitforwindows.org/). Ele te dará um
-   terminal com Bash e Git instalados.
-1. Durante a instalação, siga os passos com a configuração padrão **exceto**:
-    1. Na parte "Choosing the default editor used by Git": Selecione o seu
-       editor de texto no menu.
-
-       ![](img/git-windows-1.png)
-
-    1. Na parte "Adjusting the name of the initial branch in new repositories":
-       Selecione "Override the default branch name for new repositories"
-
-       ![](img/git-windows-2.png)
-
-    1. Na parte "Configuring the terminal emulator to use with Git Bash":
-       Selecione "Use Windows' default console window"
-
-       ![](img/git-windows-3.png)
-
-Ao final, você terá acesso ao programa "Git Bash" que te fornecerá um terminal
-com a linguagem Bash e o programa Git instalado.
-
-#### 3. Miniforge
-
-1. Baixe o [Miniforge](https://conda-forge.org/download/) para Windows.
-1. Durante a instalação, siga os passos com a configuração padrão **exceto**:
-    1. Na parte "Advanced installation options": Selecione "Add Miniforge3 to
-       my PATH environment variable".
-
-       ![](img/miniforge-1.png)
-
-Ao final, você poderá usar os comandos `python` e `conda` no terminal do Git
-Bash.
-
-#### 4. Make, Tectonic e outros
-
-1. Abra o Git Bash.
-1. Digite `conda install -y make tectonic numpy pandas matplotlib` e aperte
-   *Enter*.
-   Isso deve baixar e instalar o programa `make`, o Tectonic e as bibliotecas
-   de Python que iremos utilizar.
-
-### Linux
-
-Na maioria dos sistemas Linux você já terá um terminal com Bash, `make` e o Git
-instalados. Caso seja necessário, instale um editor de texto também, embora
-a maioria das distribuições já venha com um.
-
-1. Baixe e instale o [Miniforge](https://github.com/conda-forge/miniforge). Ele
-   te dará o Python e o gerenciador de software `conda` que utilizaremos para
-   instalar o LaTeX. Siga os passos do instalador para colocar as coisas no seu
-   `PATH`.
-1. Rode o comando `conda install -y tectonic numpy pandas matplotlib` no
-   terminal após instalar o Miniforge.
-   Isso deve baixar e instalar o Tectonic e as bibliotecas de Python que iremos
-   utilizar.
+* O código fonte LaTeX, Python, Bash e Makefile são distribuídos segundo a
+  licença de software livre [MIT](LICENSE-MIT.md).
+* O texto da fonte LaTeX e dos arquivos Markdown (`*.md`) são distribuídos
+  segundo a licença [Creative Commons Attribution (CC-BY)](LICENSE-CC-BY.md).
