@@ -20,10 +20,6 @@
 \usepackage{microtype}
 % Para citações
 \usepackage[round,authoryear,sort]{natbib}
-% Para digitar unidades
-\usepackage{siunitx}
-% Para incluir URLs com links e quebra de linha adequada
-\usepackage{xurl}
 
 % Configurações de formato do documento (chama funções dos pacotes acima)
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,9 +77,7 @@ as mudanças mais recentes sendo consideradas anômalas \citet{Osman2021}.
 
 \section{Metodologia}
 
-\DeclareSIUnit{\ano}{ano}
-
-Seja a taxa variação de temperatura $\alpha$ em \unit{\degreeCelsius\per\ano},
+Seja a taxa variação de temperatura $\alpha$ em graus Celsius por ano,
 assumimos uma variação linear da temperatura $T$ com o tempo $t$,
 
 \begin{equation}
@@ -103,6 +97,8 @@ Analisamos os dados de \NPaises{} países: \Paises{}.
 % TODO: Inserir figura
 %
 %
+
+
 \section{Conclusões}
 
 O mundo está pegando fogo e precisamos parar com a nossa dependência nos
