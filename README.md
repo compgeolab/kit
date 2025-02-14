@@ -1,17 +1,20 @@
 # Kit de sobrevivência digital para cientistas
 
-Minicurso (15h) mininstrado na XXVII Escola de Verão de Geofísica do
-[IAG - USP](https://www.iag.usp.br/).
+Minicurso de 15h que ensina o uso de algumas ferramentas indispensáveis para
+o kit de qualquer cientista que lida com dados.
 
-**Instrutor:**
-[Leonardo Uieda](https://www.leouieda.com/)
+**Autores:**
+[Leonardo Uieda](https://www.leouieda.com/),
+[Yago Moreira Castro](https://github.com/YagoMCastro),
+[Arthur Siqueira de Macêdo](https://github.com/arthursmacedo)
 
-**Monitores:**
-[Arthur Siqueira de Macêdo](https://github.com/arthursmacedo),
-[Yago Moreira Castro](https://github.com/YagoMCastro)
-
-**Inscrições até 25/11/2024:**
-https://www.iag.usp.br/eventos/curso-extensao-escola-verao-2025
+| | Info |
+|--:|:--|
+| **Onde** | XXVII Escola de Verão de Geofísica do [IAG - USP](https://www.iag.usp.br/) |
+| **Quando** | 17-21 de fevereiro de 2025 |
+| **Instrutor** | [Leonardo Uieda](https://www.leouieda.com/) |
+| **Monitores** | [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo), [Yago Moreira Castro](https://github.com/YagoMCastro) |
+| **Inscrições** | Até 2024-11-25: https://www.iag.usp.br/eventos/curso-extensao-escola-verao-2025 |
 
 ## Objetivos
 
@@ -100,7 +103,7 @@ quem precisar.
 Ao final do curso, todos terão gerado um repositório para um artigo que contém
 o código para análise dos dados, o código de um artigo LaTeX e um `Makefile`
 que coordenada todo o workflow.
-Um exemplo de tal repositório é: https://github.com/compgeolab/kit-exemplo
+Um exemplo de tal repositório é: **INCLUIR EXEMPLO APÓS O CURSO**
 
 ## Instalando os softwares no seu computador
 
