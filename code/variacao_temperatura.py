@@ -26,4 +26,4 @@ coefficients = np.polyfit(
 )
 
 # Impressão de resultados
-print(f'{file_path.stem.replace("-", " ").title()} | {coefficients[0]:.3f}')
+print(f'{coefficients[0]:.3f},"{file_path.stem.replace("-", " ").title()}"')
