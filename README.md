@@ -153,11 +153,11 @@ O material abaixo complementa e expande o que veremos em aula:
 > Recomendamos que todos leiam o material antes das aulas e que os estudem
 > a fundo depois das aulas para fixar o conteúdo.
 
-* [Lição de Python do Software Carpentry](https://swcarpentry.github.io/python-novice-inflammation)
-* [Lição de bash e terminal do Software Carpentry](https://swcarpentry.github.io/shell-novice)
+* [Lição de Bash do Software Carpentry](https://swcarpentry.github.io/shell-novice)
+* [Lição de Git do Software Carpentry](https://swcarpentry.github.io/git-novice)
 * [Lição de Make do Software Carpentry](https://swcarpentry.github.io/make-novice)
-* [Lição de git do Software Carpentry](https://swcarpentry.github.io/git-novice)
 * [Documentação de LaTeX do Overleaf](https://www.overleaf.com/learn)
+* [Lição de Python do Software Carpentry](https://swcarpentry.github.io/python-novice-inflammation)
 
 Além disso, aqui estão mais alguns links para videos e exemplos que vão te
 ajudar no dia-a-dia de um cientista digital:
