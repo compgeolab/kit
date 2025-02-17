@@ -128,10 +128,28 @@ que utilizaremos durante o curso no seu computador.
 * Navegando pelo terminal: Diretórios, caminhos, e arquivos (comandos `cd`, `ls`, `pwd`)
 * Manipulando arquivos e diretórios (comandos `cp`, `mkdir`, `mv`, `rm` e uso de wildcards)
 * Redirecionamento de saída e entrada (comandos `cat`, `wc`, `head`, `sort`)
+* Exemplo: Calculando o número de arquivos de dados que temos.
 * Loops com `for`
-* Exemplo: Calculando o número de dados em cada arquivo e rodando a análise em todos os arquivos.
+* Exemplo: Calculando o número de dados em cada arquivo.
+* Exemplo: Rodando a análise da variação de temperatura para cada arquivo.
 
 ### Dia 2 - Controle de versão com git e GitHub
+
+* Para que servem sistemas de controle de versão
+* Configurando o git (comando `git config`)
+* Criando um repositório (comando `git init`)
+* Populando o repositório  e rastreando mudanças (comandos `git add`, `git
+  status`, `git commit`)
+* Explorando o histórico de mudanças (comandos `git diff`, `git log`, `git
+  checkout`)
+* Cópias remotas do repositório no GitHub (comandos `git remote`, `git push`,
+  `git pull` e chaves SSH de acesso)
+* Adicionando arquivos `README.md` para documentar seu repositório
+* Colaborando com outras pessoas (comandos `git branch`, `git switch`, `git
+  merge` + forks e pull requests)
+* Resolvendo conflitos
+* Exemplo: Criando um repositório para nosso artigo de variações de temperatura
+* Exemplo: Adicione seu nome como coautor do artigo em outro repositório
 
 ### Dia 3 - Automatização de tarefas com GNU Make
 
