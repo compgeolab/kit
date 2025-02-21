@@ -115,7 +115,7 @@ quem precisar.
 Ao final do curso, todos terão gerado um repositório para um artigo que contém
 o código para análise dos dados, o código de um artigo LaTeX e um `Makefile`
 que coordenada todo o workflow.
-Um exemplo de tal repositório é: **INCLUIR EXEMPLO APÓS O CURSO**
+Um exemplo de tal repositório é: https://github.com/leouieda/kit-exemplo-2025-02
 
 Como exemplo, utilizamos dados de médias de temperatura média mensal para
 diversos países. Os dados estão disponíveis
