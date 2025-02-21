@@ -16,13 +16,25 @@ o kit de qualquer cientista que lida com dados.
 | **Monitores** | [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo), [Yago Moreira Castro](https://github.com/YagoMCastro) |
 | **Inscrições** | Até 2024-11-25: https://www.iag.usp.br/eventos/curso-extensao-escola-verao-2025 |
 
+> Este curso foi desenvolvido como parte das atividades de Leonardo Uieda como
+> Embaixador da
+> [Rede Brasileira de Reprodutibilidade](https://www.reprodutibilidade.org/),
+> uma iniciativa multidisciplinar para promoção de práticas de pesquisa
+> transparentes e confiáveis na comunidade científica brasileira.
+
 ## Objetivos
 
-Ensinar noções básicas de diversas ferramentas digitais (shell/bash, git,
-GitHub, make, LaTeX) que podem poupar esforços e frustrações de pesquisadores,
-alunos e profissionais que lidam com dados (amplamente definido), além de
-potencializar sua produtividade e a robustez de seus fluxos de trabalho e lhes
-permitir colaborar em projetos de software livre desenvolvidos pela comunidade.
+Nosso principal objetivo é difundir o uso de ferramentas que nos auxiliam
+a garantir a reprodutibilidade de nossos experimentos e análises
+computacionais.
+Para tanto, ensinaremos noções básicas de diversas ferramentas digitais
+(shell/bash, git, GitHub, make, LaTeX) que podem poupar esforços e frustrações
+de pesquisadores, alunos e profissionais que lidam com dados (amplamente
+definido).
+Além disso, o uso das ferramentas e práticas ensinadas pode potencializar sua
+produtividade e a robustez de seus fluxos de trabalho.
+A fluência no uso destas ferramentas também permitirá a colaboração em projetos
+de software livre desenvolvidos pela comunidade.
 
 ## Pré-requisitos
 
