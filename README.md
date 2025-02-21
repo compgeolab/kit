@@ -157,15 +157,36 @@ que utilizaremos durante o curso no seu computador.
 * Cópias remotas do repositório no GitHub (comandos `git remote`, `git push`,
   `git pull` e chaves SSH de acesso)
 * Adicionando arquivos `README.md` para documentar seu repositório
+* Exemplo: Criando um repositório para nosso artigo de variações de temperatura
+
+Caso dê tempo:
+
 * Colaborando com outras pessoas (comandos `git branch`, `git switch`, `git
   merge` + forks e pull requests)
 * Resolvendo conflitos
-* Exemplo: Criando um repositório para nosso artigo de variações de temperatura
 * Exemplo: Adicione seu nome como coautor do artigo em outro repositório
 
 ### Dia 3 - Automatização de tarefas com GNU Make
 
+* O problema de dependências em fluxos de trabalho
+* A estrutura geram de um `Makefile`: alvo, requisitos e comandos
+* O que acontece quando requisitos são atualizados
+* Criando alvos "phony"/fictícios: `all`, `clean`
+* Exemplo: Criando alvos para nossa análise de temperaturas
+
 ### Dia 4 - Escrita científica com LaTeX
+
+* LaTeX vs Word, qual é a diferença?
+* Estrutura básica de um documento LaTeX: cabeçalho e corpo
+* Usando o comando `\documentclass`
+* Compilando um documento com o `tectonic`
+* Configurando o idioma com o pacote `babel`
+* Adicionando título e autores com `\title`, `\author` e `\maketitle`
+* Criando seções com `\section`
+* Adicionando citações com Bibtex e o pacote `natbib`
+* Obtendo referências em formato Bibtex com https://www.doi2bib.org
+* Incluindo figuras com o pacote `graphicx`
+* Criando variáveis com `\newcommand` e inserindo resultados no seu documento
 
 ### Dia 5 - Projetos individuais
 
@@ -214,6 +235,18 @@ ajudar no dia-a-dia de um cientista digital:
 * [Template para projetos de pesquisa em LaTeX](https://github.com/compgeolab/grant-fapesp-template).
   Baseada no modelo de projetos da FAPESP mas pode ser adaptada para outras
   agências de fomento.
+
+Para os interessados e mais material tangencial ao curso:
+
+* [Python Challenge](http://www.pythonchallenge.com/). Teste suas habilidades
+  e aprenda como fazer várias coisas com Python que são muito úteis quando
+  lidamos com dados.
+* [Learn Vim Progressively](https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/).
+  Guia de como aprender a usar o editor de texto Vim. Recomendo instalar
+  o [NeoVim](https://neovim.io/) que é uma versão mais moderna e compatível com
+  o Vim clássico.
+* [Choose a License](https://choosealicense.com/). Guia de como escolher e usar
+  licenças abertas quando você compartilha código e material online.
 
 ## Licença
 
