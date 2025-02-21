@@ -235,6 +235,10 @@ ajudar no dia-a-dia de um cientista digital:
 * [Template para projetos de pesquisa em LaTeX](https://github.com/compgeolab/grant-fapesp-template).
   Baseada no modelo de projetos da FAPESP mas pode ser adaptada para outras
   agências de fomento.
+* [Tutorial de como escolher o tamanho de figuras](https://duetosymmetry.com/code/latex-mpl-fig-tips/).
+  Explica como calcular o tamanho da figura que é gerada pelo código para
+  que a fonte da figura seja exatamente do mesmo tamanho que a fonte do
+  texto quando inserida no LaTeX.
 
 Para os interessados e mais material tangencial ao curso:
 
