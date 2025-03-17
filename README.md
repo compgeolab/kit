@@ -3,15 +3,10 @@
 Minicurso de 20h que ensina o uso de algumas ferramentas indispensáveis para
 o kit de qualquer cientista que lida com dados.
 
-**Autores:**
-[Leonardo Uieda](https://www.leouieda.com/),
-[Yago Moreira Castro](https://github.com/YagoMCastro),
-[Arthur Siqueira de Macêdo](https://github.com/arthursmacedo)
-
 | | Info |
 |--:|:--|
 | **Instrutor** | [Leonardo Uieda](https://www.leouieda.com/) |
-| **Monitores** | [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo), [Yago Moreira Castro](https://github.com/YagoMCastro) |
+| **Autores** | [Leonardo Uieda](https://www.leouieda.com/), [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo), [Yago Moreira Castro](https://github.com/YagoMCastro) |
 
 > Este curso foi desenvolvido como parte das atividades de Leonardo Uieda como
 > Embaixador da
