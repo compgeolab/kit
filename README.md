@@ -61,13 +61,7 @@ pré-requisitos são:
 
 ## Ementa
 
-O curso tem como objetivo difundir o uso de algumas ferramentas computacionais
-que têm o potencial de facilitar a vida de profissionais e cientistas que lidam
-com dados e produção de textos técnicos e científicos. As ferramentas podem ser
-utilizadas em diversos contextos: profissional, ensino, estudos, pesquisa,
-extensão, etc.
-
-O programa do curso será:
+O programa do curso é:
 
 1. **Uso do terminal e de shell scripts:** Em qualquer sistema operacional,
    aprender a utilizar o terminal pode parecer arcaico mas pode ser
@@ -223,6 +217,7 @@ O material abaixo complementa e expande o que veremos em aula:
 * [Lição de Make do Software Carpentry](https://swcarpentry.github.io/make-novice)
 * [Lição de Python do Software Carpentry](https://swcarpentry.github.io/python-novice-inflammation)
 * [Documentação de LaTeX do Overleaf](https://www.overleaf.com/learn)
+* [Recomendações da UNESCO sobre ciência aberta](https://unesdoc.unesco.org/ark:/48223/pf0000379949_por)
 
 Além disso, aqui estão mais alguns links para videos e exemplos que vão te
 ajudar no dia-a-dia de um cientista digital:
