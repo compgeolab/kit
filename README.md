@@ -28,6 +28,23 @@ produtividade e a robustez de seus fluxos de trabalho.
 A fluência no uso destas ferramentas também permitirá a colaboração em projetos
 de software livre desenvolvidos pela comunidade.
 
+## Justificativa
+
+A ciência no século XXI depende cada vez de recursos computacionais, desde
+estudos inteiros feitos somente utilizando um computador (simulações
+geodinâmicas ou de galáxias) até a análise de dados experimentais e produção de
+gráficos.
+Porém, a maioria dos cientistas não possuem treinamento formal em como manejar
+fluxos computacionais de processamento de dados complexos, muito menos como
+desenvolvê-los de forma colaborativa e que garanta a reprodutibilidade dos
+resultados.
+Este curso visa providenciar tal treinamento.
+Nosso foco será ensinar ferramentas que possibilitam a automatização
+e documentação do processo científico digital, desde a análise inicial dos
+dados até a produção de um artigo científico.
+Também discutiremos as definições de ciência aberta e reprodutível e como
+praticá-la.
+
 ## Pré-requisitos
 
 Este curso tem como público alvo graduandos, pós-graduandos, pós-doutorandos
@@ -184,6 +201,9 @@ que utilizaremos durante o curso no seu computador pessoal.
 * Licenças abertas e como utilizá-las:
   [Creative Commons](https://creativecommons.org/) e
   [Open Source Initiative (OSI)](https://opensource.org/licenses)
+* Repositórios de dados: [Zenodo](https://zenodo.org/), [figshare](https://figshare.com/)
+* A importância da organização de dados e códigos para facilitar seu uso com
+  ferramentas computacionais
 * Colaborando com outras pessoas utilizando o Git (comandos `git branch`, `git
   switch`, `git merge` + forks e pull requests)
 * Ambientes virtuais do `conda` para reproduzir seu o ambiente computacional em
