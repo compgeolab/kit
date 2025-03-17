@@ -1,6 +1,6 @@
 # Kit de sobrevivência digital para cientistas
 
-Minicurso de 15h que ensina o uso de algumas ferramentas indispensáveis para
+Minicurso de 20h que ensina o uso de algumas ferramentas indispensáveis para
 o kit de qualquer cientista que lida com dados.
 
 **Autores:**
@@ -10,11 +10,8 @@ o kit de qualquer cientista que lida com dados.
 
 | | Info |
 |--:|:--|
-| **Onde** | XXVII Escola de Verão de Geofísica do [IAG - USP](https://www.iag.usp.br/) |
-| **Quando** | 17-21 de fevereiro de 2025 |
 | **Instrutor** | [Leonardo Uieda](https://www.leouieda.com/) |
 | **Monitores** | [Arthur Siqueira de Macêdo](https://github.com/arthursmacedo), [Yago Moreira Castro](https://github.com/YagoMCastro) |
-| **Inscrições** | Até 2024-11-25: https://www.iag.usp.br/eventos/curso-extensao-escola-verao-2025 |
 
 > Este curso foi desenvolvido como parte das atividades de Leonardo Uieda como
 > Embaixador da
@@ -85,6 +82,9 @@ O programa do curso será:
    documentos com temas diferentes, facilidade na utilização de referências
    cruzadas, geração automática de bibliografia e citações, numeração
    automática de equações, figuras e capítulos, etc.
+5. **Ciência aberta e reprodutível:** O que é ciência aberta e como as
+   ferramentas ensinadas ajudam a garantir a reprodutibilidade dos seus
+   resultados.
 
 O formato do curso conterá:
 
@@ -94,16 +94,10 @@ O formato do curso conterá:
 * **Exercícios:** Intercalado com as aulas expositivas, os participantes
   receberão pequenos desafios e exercícios para serem realizados
   individualmente e em grupos.
-* **Aplicações:** O curso reservará parte do tempo para a aplicação das
-  ferramentas ensinadas em problemas trazidos pelos participantes. Essas
-  aplicações podem ser individuais ou compartilhadas com todos os
-  participantes.
-
-Ao final do curso, os participantes saberão como desenvolver projetos complexos
-em equipe e com fluxos de trabalho automatizados para produção de resultados
-e relatórios/teses/artigos de alta qualidade. As ferramentas aprendidas também
-formam a base para melhorar a reprodutibilidade de resultados e para a prática
-de Ciência Aberta.
+* **Aplicações:** Ao longo do curso, desenvolveremos um artigo científico
+  utilizado as ferramentas ensinadas. Ao final, seremos capazes de baixar os
+  dados, gerar os resultados e figuras, e produzir um PDF do nosso artigo com
+  um único comando.
 
 ## O material
 
@@ -126,12 +120,15 @@ a licença CC-BY-NC.
 
 ## Instalando os softwares no seu computador
 
-**Siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
-que utilizaremos durante o curso no seu computador.
+Caso queira utilizar seu próprio computador durante o curso,
+**siga as instruções em [INSTALL.md](INSTALL.md)** para instalar os softwares
+que utilizaremos durante o curso no seu computador pessoal.
 
 ## Cronograma
 
-> O cronograma a seguir é um **esboço** e está **sujeito a mudanças** até a data do curso.
+> Este cronograma é o que seria ideal cobrir em cada dia do curso. Porém,
+> muitas vezes não é viável cobrir o conteúdo todo. Nesse caso, cortaremos
+> algumas coisas para ter mais tempo de cobrir o essencial da forma necessária.
 
 ### Dia 1 - O terminal e scripts em Bash
 
@@ -159,13 +156,6 @@ que utilizaremos durante o curso no seu computador.
 * Adicionando arquivos `README.md` para documentar seu repositório
 * Exemplo: Criando um repositório para nosso artigo de variações de temperatura
 
-Caso dê tempo:
-
-* Colaborando com outras pessoas (comandos `git branch`, `git switch`, `git
-  merge` + forks e pull requests)
-* Resolvendo conflitos
-* Exemplo: Adicione seu nome como coautor do artigo em outro repositório
-
 ### Dia 3 - Automatização de tarefas com GNU Make
 
 * O problema de dependências em fluxos de trabalho
@@ -187,15 +177,24 @@ Caso dê tempo:
 * Obtendo referências em formato Bibtex com https://www.doi2bib.org
 * Incluindo figuras com o pacote `graphicx`
 * Criando variáveis com `\newcommand` e inserindo resultados no seu documento
+* Exemplo: Escrevendo um artigo sobre as mudanças de temperatura.
 
-### Dia 5 - Projetos individuais
+### Dia 5 - Ciência aberta e reprodutível
 
-O último dia estará reservado para que participantes tragam seus próprios
-projetos (artigos, dissertações, monografias, etc) aos quais desejem aplicar os
-conhecimentos adquiridos ao longo do curso. O instrutor e os monitores
-auxiliarão na implementação. Participantes que não tiverem projetos podem
-auxiliar em projetos de outras pessoas ou o instrutor pode sugerir algum
-projeto.
+* Explorando os conceitos de
+  [ciência aberta](https://unesdoc.unesco.org/ark:/48223/pf0000379949_por) e
+  reprodutibilidade de resultados científicos
+* Como as ferramentas ensinadas no curso possibilitam ciência aberta
+  e reprodutível
+* Licenças abertas e como utilizá-las:
+  [Creative Commons](https://creativecommons.org/) e
+  [Open Source Initiative (OSI)](https://opensource.org/licenses)
+* Colaborando com outras pessoas utilizando o Git (comandos `git branch`, `git
+  switch`, `git merge` + forks e pull requests)
+* Ambientes virtuais do `conda` para reproduzir seu o ambiente computacional em
+  outros computadores
+* Exemplo: Adicionando licenças no repositório do artigo
+* Exemplo: Colaborando na escrita do artigo
 
 ## Bibliografia
 
@@ -207,8 +206,8 @@ O material abaixo complementa e expande o que veremos em aula:
 * [Lição de Bash do Software Carpentry](https://swcarpentry.github.io/shell-novice)
 * [Lição de Git do Software Carpentry](https://swcarpentry.github.io/git-novice)
 * [Lição de Make do Software Carpentry](https://swcarpentry.github.io/make-novice)
-* [Documentação de LaTeX do Overleaf](https://www.overleaf.com/learn)
 * [Lição de Python do Software Carpentry](https://swcarpentry.github.io/python-novice-inflammation)
+* [Documentação de LaTeX do Overleaf](https://www.overleaf.com/learn)
 
 Além disso, aqui estão mais alguns links para videos e exemplos que vão te
 ajudar no dia-a-dia de um cientista digital:
