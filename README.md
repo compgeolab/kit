@@ -14,12 +14,6 @@ o kit de qualquer cientista que lida com dados.
 > uma iniciativa multidisciplinar para promoção de práticas de pesquisa
 > transparentes e confiáveis na comunidade científica brasileira.
 
-## Público Alvo
-
-Estudantes de graduação e pós-graduação, pesquisadores(as) e docentes em
-Geofísica, Geologia, Meteorologia, Astronomia ou outras áreas correlatas, além
-de profissionais atuantes na área de análise de dados.
-
 ## Objetivos
 
 Nosso principal objetivo é difundir as práticas de ciência aberta e o uso de
@@ -53,10 +47,11 @@ praticá-la.
 
 ## Pré-requisitos
 
-Este curso tem como público alvo graduandos, pós-graduandos, pós-doutorandos
-e profissionais atuantes das áreas de Geofísica, Geologia, Meteorologia,
-Astronomia ou outras áreas correlatas das Ciências Exatas. Assim, os
-pré-requisitos são:
+**Público alvo:** Estudantes de graduação e pós-graduação, pesquisadores(as)
+e docentes em Geofísica, Geologia, Meteorologia, Astronomia ou outras áreas
+correlatas, além de profissionais atuantes na área de análise de dados.
+
+Os pré-requisitos são:
 
 * **Conhecimento básico de programação** (de preferência na linguagem Python):
   variáveis, funções, loops, criar gráficos. Os exemplos dados em aula
