@@ -14,11 +14,17 @@ o kit de qualquer cientista que lida com dados.
 > uma iniciativa multidisciplinar para promoção de práticas de pesquisa
 > transparentes e confiáveis na comunidade científica brasileira.
 
+## Público Alvo
+
+Estudantes de graduação e pós-graduação, pesquisadores(as) e docentes em
+Geofísica, Geologia, Meteorologia, Astronomia ou outras áreas correlatas, além
+de profissionais atuantes na área de análise de dados.
+
 ## Objetivos
 
-Nosso principal objetivo é difundir o uso de ferramentas que nos auxiliam
-a garantir a reprodutibilidade de nossos experimentos e análises
-computacionais.
+Nosso principal objetivo é difundir as práticas de ciência aberta e o uso de
+ferramentas que nos auxiliam a garantir a reprodutibilidade de nossos
+experimentos e análises computacionais.
 Para tanto, ensinaremos noções básicas de diversas ferramentas digitais
 (shell/bash, git, GitHub, make, LaTeX) que podem poupar esforços e frustrações
 de pesquisadores, alunos e profissionais que lidam com dados (amplamente
@@ -34,14 +40,14 @@ A ciência no século XXI depende cada vez de recursos computacionais, desde
 estudos inteiros feitos somente utilizando um computador (simulações
 geodinâmicas ou de galáxias) até a análise de dados experimentais e produção de
 gráficos.
-Porém, a maioria dos cientistas não possuem treinamento formal em como manejar
-fluxos computacionais de processamento de dados complexos, muito menos como
-desenvolvê-los de forma colaborativa e que garanta a reprodutibilidade dos
-resultados.
+Porém, a maioria dos cientistas e profissionais que trabalham com dads não
+possuem treinamento formal em como manejar fluxos computacionais de
+processamento de dados complexos, muito menos como desenvolvê-los de forma
+colaborativa e que garanta a reprodutibilidade dos resultados.
 Este curso visa providenciar tal treinamento.
 Nosso foco será ensinar ferramentas que possibilitam a automatização
 e documentação do processo científico digital, desde a análise inicial dos
-dados até a produção de um artigo científico.
+dados até a produção de um artigo científico ou relatório técnico.
 Também discutiremos as definições de ciência aberta e reprodutível e como
 praticá-la.
 
@@ -81,13 +87,13 @@ O programa do curso é:
    mais comum é para a compilação de códigos complexos, mas seu uso vai muito
    além disso. Com o Make, é possível automatizar tarefas comuns, como rodar
    scripts para produzir figuras, criar PDFs a partir de código LaTeX, etc.
-4. **Criação de artigos, livros e teses com LaTeX:** O LaTeX é um "typesetting
-   system", que transforma código em PDFs. Embora seja mais trabalhoso de
-   aprender do que softwares como Word, o fato do texto ser escrito em forma de
-   código possui diversas vantagens: o mesmo texto pode ser usado para gerar
-   documentos com temas diferentes, facilidade na utilização de referências
-   cruzadas, geração automática de bibliografia e citações, numeração
-   automática de equações, figuras e capítulos, etc.
+4. **Criação de artigos, relatórios e teses com LaTeX:** O LaTeX é um
+   "typesetting system", que transforma código em PDFs. Embora seja mais
+   trabalhoso de aprender do que softwares como Word, o fato do texto ser
+   escrito em forma de código possui diversas vantagens: o mesmo texto pode ser
+   usado para gerar documentos com temas diferentes, facilidade na utilização
+   de referências cruzadas, geração automática de bibliografia e citações,
+   numeração automática de equações, figuras e capítulos, etc.
 5. **Ciência aberta e reprodutível:** O que é ciência aberta e como as
    ferramentas ensinadas ajudam a garantir a reprodutibilidade dos seus
    resultados.
@@ -100,10 +106,10 @@ O formato do curso conterá:
 * **Exercícios:** Intercalado com as aulas expositivas, os participantes
   receberão pequenos desafios e exercícios para serem realizados
   individualmente e em grupos.
-* **Aplicações:** Ao longo do curso, desenvolveremos um artigo científico
-  utilizado as ferramentas ensinadas. Ao final, seremos capazes de baixar os
-  dados, gerar os resultados e figuras, e produzir um PDF do nosso artigo com
-  um único comando.
+* **Aplicações:** Ao longo do curso, desenvolveremos um artigo científico ou
+  relatório técnico utilizado as ferramentas ensinadas. Ao final, seremos
+  capazes de baixar os dados, gerar os resultados e figuras, e produzir um PDF
+  do nosso documento com um único comando.
 
 ## O material
 
