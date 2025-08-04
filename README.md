@@ -237,8 +237,8 @@ ajudar no dia-a-dia de um cientista digital:
 * [Exemplo de tese feita em LaTeX](https://github.com/santisoler/phd-thesis).
   Tese do [Santiago Soler](https://www.santisoler.com/) com ótimo design
   e várias boas práticas de LaTeX.
-* [Exemplo de memorial acadêmico para concurso feito em LaTeX](https://github.com/leouieda/memorial2023).
-  Memorial escrito pelo Leo para o concurso de professor do IAG em 2023.
+* [Exemplo de memorial acadêmico para concurso feito em LaTeX](https://github.com/leouieda/memorial).
+  Memorial escrito pelo Leo para o concurso de professor do IAG em 2023 e outros.
   Utiliza estilo customizado com detalhes gráficos.
 * [Exemplo de CV feito em LaTeX](https://github.com/leouieda/cv).
   Currículo resumido do Leo em formato relativamente simples e limpo.
