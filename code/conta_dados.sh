@@ -1,13 +1,10 @@
 # Conta o número de dados de cada arquivo
 #
-# Recebe o caminho até a pasta com os dados na linha de comando. Imprime os
-# resultados para a tela (STDOUT).
+# Imprime os resultados para a tela (STDOUT).
+# Deve ser rodado a partir da raiz do repositório.
 
 # Para cada arquivo .csv na pasta data como argumento
-# As variáveis 1, 2, 3, ..., contem os argumentos passados na linha de comando
-# para o script. Nesse caso, "$1" é o primeiro argumento passado (a pasta onde
-# estão os dados).
-for arquivo in "$1"/*.csv
+for arquivo in dados/temperatura/*.csv
 do
     # O comando "echo" imprime algo na tela.
     # O que está entre $() é executado primeiro e o seu resultado é passado
